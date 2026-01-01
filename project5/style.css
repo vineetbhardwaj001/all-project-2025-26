@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    /* background-color: red; */
+}
+
+#nav1{
+display: flex;
+align-items: center;
+justify-items:center ;
+/* border: 1px solid black;
+border-radius: 50%; */
+}
+.gola{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.gola{
+    width: 100%;
+    height: 100%;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+#nav2{
+display: flex;
+gap:20px;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    padding: 0px 0px 0px 55px;
+    /* background-color: aqua; */
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+   
+    /* background-color: aquamarine; */
+    
+}
+#nav2 span{
+    color: rgb(20, 21, 21);
+    opacity: 0.6;
+   
+}
+
+#textcont{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    /* background-color: blanchedalmond; */
+     overflow-x: auto;
+}
+
+#textcont::-webkit-scrollbar{
+   background-color: transparent;
+   height: 6px;
+}
+
+#textcont::-webkit-scrollbar-thumb{
+     background-color: red;
+}
+
+.elem{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    flex-shrink: 0;
+   align-items: center;
+   justify-content: center;
+}
+
+.elem h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 60px;
+    font-weight: 100;
+   
+}
+
+#image{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+
+}
+#image img{
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+

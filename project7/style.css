@@ -1,0 +1,51 @@
+@font-face {
+    font-family: font;
+    src: url(./PickysideGrungeRegular-7OMol.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    text-align: center;
+    font-family: font;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #66472D;
+    border: none;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+a:hover{
+    transform: scale(1.5);
+    background-color: silver;
+    color: #66472D;
+    border: 2px solid;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071);
+    background-size: cover;
+}

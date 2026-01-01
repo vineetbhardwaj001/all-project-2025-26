@@ -1,0 +1,149 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(./HelveticaNeueLight.otf);
+}
+
+@font-face {
+    font-family: STL;
+    src: url(./Superior-Title-Light.otf);
+}
+
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.elem{
+    display: flex;
+    padding: 0px 60px;
+    gap: 10px;
+}
+
+.elem h4{
+    font-size: 20px;
+    font-family: STL;
+    color: red;
+}
+
+#header{
+   align-items: center;
+   justify-items: center;
+   font-size:350px;
+   padding-bottom: -20px;
+   padding-left: 20px;
+   height: 60%;
+   
+}
+
+#btm{
+    width: 100%;
+    display: flex;
+    padding-left: 60px;
+}
+#btml h2:nth-child(1){
+    font-size: 17px;
+   
+
+}
+#btml p{
+    width: 30%;
+    font-size: 12px;
+
+}
+#btml h2:nth-child(3){
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 900;
+    opacity: 0.7;
+}
+
+#btml h3{
+    font-size: 16px;
+   
+    font-style: italic;
+    font-weight: 900;
+    position: absolute;
+   
+}
+
+#btml h4{
+   
+    font-size: 12px;
+    padding-top: 13px;
+   opacity: 0.7;
+   
+}
+
+#btmr{
+  
+    width: 20%;
+    align-items: flex-end;
+    justify-items: right;
+
+}
+#btmr h2{
+    position: absolute;
+   top: 530px;
+   left: 90%;
+   transform: translate(-50%,-50%);
+    font-size: 18px;
+    text-decoration: underline;
+    /* padding-left: 90px; */
+    text-decoration-style: 2px solid black;
+}
+
+#image{
+position: absolute;
+top: 70%;
+left: 40%;
+transform: translate(-50%,-50%);
+}
+img{
+    width: 30%;
+    height: 20%;
+    margin-top: 10px;
+   margin-left: 80%;
+}
+
+#image2{
+position: absolute;
+top: 60%;
+left: 60%;
+transform: translate(-50%,-50%);
+}
+#image2 img{
+    width: 40%;
+    height: 30%;
+    margin-top: 10px;
+   margin-left: 80%;
+}
+
+#image3{
+position: absolute;
+top: 70%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+#image3 img{
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+   margin-left: 80%;
+}
+
