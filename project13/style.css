@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+body {
+  align-content: center;
+  justify-items: center;
+  gap: 20px;
+}
+body h1 {
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: wheat;
+}
+body h5 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: white;
+}
+body button {
+  margin-top: 20px;
+  margin-left: 47%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+body button:active {
+  scale: 0.95;
+}/*# sourceMappingURL=style.css.map */

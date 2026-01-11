@@ -124,16 +124,32 @@ font-family: SF;
     /* padding-top: 10px; */
     font-size: 25px;
 }
-#grid{
-     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* background-color: red; */
-    gap: 18px;
-    padding: 20px;
-}
 
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "iphone-17"
+    "Air-Pods"
+    ;
+    margin-top: 20px;
+    gap: 20px;
+    
+
+}
+@media(min-width:1000px){
+.grid{
+    display: grid;
+     grid-template-areas: 
+    "iphone-17  Air-Pods "
+    ;
+    margin-top: 20px;
+    gap: 20px;
+    
+
+}
+}
 .card{
-    height: 592px; /* adjust to taste */
+    height: 592px; /* adjust to taste*/
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -146,7 +162,7 @@ font-family: SF;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 100;
-}
+} 
 
 #iphone-17{
     background-image: url(./iphone\ 17.jpg);
