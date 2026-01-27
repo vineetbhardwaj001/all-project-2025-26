@@ -1,0 +1,175 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #fff;
+  overflow: hidden;
+}
+#main .nav {
+  width: 100%;
+  display: flex;
+  background-color: yellow;
+  margin-top: 5px;
+  padding: 10px;
+  gap: 280px;
+}
+#main .nav #right-nav {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+#main .nav #center-nav {
+  gap: 30px;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 5px;
+  background-color: rgba(222, 204, 204, 0.7176470588);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+#main .nav #center-nav pad h4:nth-child(1) {
+  color: red;
+}
+#main .nav #left-nav {
+  margin-top: 7px;
+}
+#main .nav #left-nav button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: rgb(227, 150, 7);
+  cursor: pointer;
+}
+#main #center {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+#main #center #left {
+  width: 60%;
+  background-color: red;
+  padding-top: 50px;
+  display: flex;
+  padding-left: 25px;
+  position: relative;
+  border: 1px solid black;
+}
+#main #center #left h1:nth-child(1) {
+  font-size: 3vw;
+}
+#main #center #left h1:nth-child(2) {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 4vw;
+}
+#main #center #left .image-a {
+  width: 5%;
+  height: 35%;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+#main #center #left .image-a img {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 3px 10px;
+}
+#main #center #left .image-b {
+  width: 5%;
+  height: 35%;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+#main #center #left .image-b img {
+  width: 100%;
+  padding: 3px 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#main #center #left .image-c {
+  width: 5%;
+  height: 35%;
+  position: absolute;
+  top: 35%;
+  left: 155px;
+}
+#main #center #left .image-c img {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 3px 10px;
+}
+#main #center #right {
+  width: 40%;
+  background-color: blue;
+  padding: 20px;
+  position: relative;
+}
+#main #center #right .rect-1 {
+  width: 100%;
+  height: 100%;
+}
+#main #center #right .rect-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main #center #right .rect-2 {
+  width: 50%;
+  height: 83%;
+  position: absolute;
+  top: 8%;
+  left: 235px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.523);
+  border-radius: 30px;
+}
+#main #bottom {
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+  display: flex;
+}
+#main #bottom .image-1 {
+  width: 20%;
+  height: 46%;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#main #bottom .image-2 {
+  width: 80%;
+  margin-top: 10px;
+  height: 46%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+#main #bottom .image-3 {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+#main #bottom .image-4 {
+  border: 1px solid black;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */

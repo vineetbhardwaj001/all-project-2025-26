@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.piano-box {
+  background-color: rgb(30, 30, 30);
+  border-radius: 15px;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.piano-box h1 {
+  margin: 10px 0px 0px 20px;
+  opacity: 60%;
+  font-size: 29px;
+  color: white;
+}
+
+/* PIANO KEYS BOX            */
+.piano-keys {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+/* remove list style */
+.piano-keys .key {
+  list-style: none;
+  position: relative;
+}
+
+.key.white {
+  width: 55px;
+  height: 180px;
+  background: white;
+  border-radius: 8px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.key.black {
+  width: 35px;
+  height: 120px;
+  background: black;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 8px;
+}
+
+/* 1st black key (W) */
+.key.black:nth-of-type(2) {
+  left: 40px;
+}
+
+/* 2nd black key (E) */
+.key.black:nth-of-type(4) {
+  left: 100px;
+}
+
+/* 3rd black key (T) */
+.key.black:nth-of-type(7) {
+  left: 220px;
+}
+
+/* 4th black key (Y) */
+.key.black:nth-of-type(9) {
+  left: 280px;
+}
+
+/* 5th black key (U) */
+.key.black:nth-of-type(11) {
+  left: 340px;
+}
+
+/* 6th black key (O) */
+.key.black:nth-of-type(14) {
+  left: 460px;
+}
+
+/* 7th black key (P) */
+.key.black:nth-of-type(16) {
+  left: 520px;
+}
+
+.key.active {
+  background-color: rgb(237, 199, 49);
+  transform: scale(0.95);
+  box-shadow: 0 0 10px gold;
+  transition: 0s;
+}
+
+span {
+  font-weight: 100;
+  opacity: 8zzzaa;
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */
